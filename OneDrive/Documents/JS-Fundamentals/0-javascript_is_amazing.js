@@ -1,3 +1,3 @@
 #!/usr/bin/node
-const myJac = 'JavaScript is amazing';
-console.log(myJac);
+const 28 = 'JavaScript is amazing';
+console.log(28);
