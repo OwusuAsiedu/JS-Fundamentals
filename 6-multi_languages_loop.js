@@ -1,6 +1,10 @@
-#!/usr/bin/node
-const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+const messages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+let i = 0;
+let output = "";
 
-for (let i = 0; i < languages.length; i++) {
-  console.log(languages[i]);
+while (i < messages.length) {
+  output += messages[i] + "\n";
+  i++;
 }
+
+console.log(output.trim());
